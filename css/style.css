@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*font-family: "Roboto", sans-serif;*/
+header{
+    width:85%;
+    margin: 8%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    padding-top: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    font-family: "Roboto", sans-serif;
+    color: #97999b;
+    font-size: 13;
+    font-weight: 400;
+}
+.banner_section{
+    position: relative;
+    
+}
+.banner_section img{
+    width: 100%;
+    
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.banner_text h1{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+}
+.banner_text h5{
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.banner_text button{
+    background: none;
+    border: none;
+    border: #ffffff solid 1px;
+    background: #fb6e52;
+    padding: 15px 50px;
+    border-radius: 6px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+section{
+    width:80%;
+    margin: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+section .webdesign{
+   width: 31%;
+}
+section .webdesign img{
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+section .webdesign h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #292c34;
+}
+section .webdesign p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #97999b;
+}
+section .graphic_design{
+    width: 31%;
+}
+section .graphic_design img{
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+section .graphic_design h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #292c34;
+}
+section .graphic_design p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #97999b;
+}
+section .photography{
+    width: 31%;
+}
+section .photography img{
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+section .photography h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #292c34;
+}
+section .photography p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #97999b;
+}
+.text{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fb6e52;
+    width: 60%;
+    margin: auto;
+}
+.service{
+    width:80%;
+    margin: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.service .service_one{
+    width: 31%
+
+}
+.service .service_one img{
+    width: 100%;
+}
+.service .service_one h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #292c34;
+}
+.service p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #97999b;
+}
+.service .service_two{
+    width: 31%;
+}
+.service .service_two img{
+    width: 100%;
+}
+.service .service_two h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #292c34;
+}
+.service .service_two p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #97999b;
+}
+.service .service_three{
+    width: 31%;
+}
+.service .service_three img{
+    width: 100%;
+}
+.service .service_three h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    color: #292c34;
+}
+.service .service_three p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #97999b;
+}
+.description{
+    background: #f6f6f6;
+    padding: 10px;
+    padding-bottom: 70px;
+}
+.description h1{
+    
+    text-align: center;
+    color: #292c34;
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.description .blog{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11%;
+    margin-right: 11%;
+    
+}
+.description .blog .blog_one{
+    width: 47%;
+}
+.description .blog .blog_one img{
+    width: 100%;
+}
+.description .blog .blog_one h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #fb6e52;
+}
+.description .blog .blog_one p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #97999b;
+}
+footer{
+    background-color: #292c34;
+    padding: 30px 0;
+}
+.footer_conditions{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+    display: flex;
+    margin-right: 15px;
+}
+.terms img{
+    margin-right: 25px;
+}
+.terms h5{
+    text-decoration: none;
+    font-size: 14px;
+    color: #797c82;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+}
+.social_icon{}
+.social_icon ul{
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+.social_icon ul li{ 
+    margin-left: 40px;
+}
+.social_icon ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
